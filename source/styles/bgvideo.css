@@ -1,0 +1,204 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo h1 {
+    font-weight: 900;
+}
+
+.bgvideo img {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.283);
+}
+
+.video-text {
+    color: #00ff88;
+    z-index: 2;
+}
+
+/* календарь */
+
+.bgvideoc {
+    height: 8em;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.bgvideoc h1 {
+    font-weight: 900;
+}
+
+.bgvideoc img {
+    height: 8em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effectc {
+    height: 8em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.283);
+}
+
+.video-textc {
+    text-align: center;
+    color: #00ff88;
+    z-index: 2;
+
+}
+
+.video-textc h3 {
+    background-color: rgb(40, 40, 40);
+    padding-inline: 2em;
+}
+
+.doors {
+    color: rgb(40, 40, 40);
+    font-size: 2em;
+}
+
+.navcal {
+    background-color: #a5ffa0;
+}
+
+.clea {
+    color: white;
+}
+
+/* контакты */
+
+.bgvideocon {
+    height: 52em;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideocon h1 {
+    font-weight: 900;
+}
+
+.bgvideocon img {
+    height: 52em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effectcon {
+    height: 52em;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.283);
+}
+
+.video-textcon {
+    color: #00ff88;
+    z-index: 2;
+}
+
+.card-textcon {
+    font-size: 1.3em;
+}
+
+/* регистрация */
+
+.doorl {
+    color: #00ff88;
+    font-size: 40px;
+}
+
+.bgvideol {
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideol h1 {
+    font-weight: 900;
+}
+
+.bgvideol img {
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effectl {
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.283);
+}
+
+.video-textl {
+    color: #00ff88;
+    z-index: 2;
+}
+
+.video-textl input {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-textl button {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #a5ffa0;
+    color: rgb(40, 40, 40);
+}

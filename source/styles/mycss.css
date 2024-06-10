@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: Montserrat, serif;
+    background: linear-gradient(0deg, #174e18 0%, #a5ffa0 100%);
+}
+
+p {
+    color: dark;
+}
+
+.nav-link {
+    color: #00ff88;
+    font-size: large;
+}
+
+.navbar-nav .nav-link.active {
+    color: #005c31;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.logoper {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.navbar-toggler {
+    background-color: #a5ffa0;
+}
+
+.door {
+    color: #00ff88;
+    font-size: 30px;
+}
+
+.name-river {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.feed {
+    text-align: center;
+    font-weight: 600;
+}
+
+.sidebar {
+    text-align: center;
+    .feedtxt {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+}
+
+.sidebar img {
+    width: 5em;
+    height: 5em;
+}
+
+.btn-secondary {
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+}
+
+/* .sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #010186 0%, #000000 100%);
+} */
+
+.infonas {
+    display: inline-block;
+}
+
+.img-conteiner {
+    padding: 5px;
+    margin-left: 10px;
+    float: right;
+}
+
+/* .img-conteiner>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.onas {
+    width: 40em;
+}
+
+.car, 
+h5 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #a5ffa0;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.slide-text {
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+.slide-text,
+.footer-text {
+    color: dark;
+    margin: auto auto;
+    
+}
+
+
+
+footer,
+.btn-outline-dark {
+    background-color: rgb(40, 40, 40);
+    color: #00ff88;
+}
+
+.nameper {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+/* направления */
+
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
